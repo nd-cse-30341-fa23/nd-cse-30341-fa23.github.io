@@ -20,7 +20,7 @@ jobs:
     - name: Build site
       run: make clean && make build
 
-    - name: Deploy back to gh
+    - name: Deploy back to GitHub
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
