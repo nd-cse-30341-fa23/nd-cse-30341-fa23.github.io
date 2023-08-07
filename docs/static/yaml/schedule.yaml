@@ -1,0 +1,181 @@
+- name:     "Unit 01: System Calls and Processes"
+
+- name:     Hardware, Operating Systems
+  days:
+      - date:           Tue 08/22
+        topics:         Syllabus, Computer Hardware, Boot Sequence
+        assignments:
+          - Reading 01
+
+      - date:           Thu 08/24
+        topics:         OS Taxonomy, History, Themes
+
+- name:     System Calls, Processes
+  days:
+      - date:           Tue 08/29
+        topics:         System Calls
+        assignments:
+          - Reading 02
+
+      - date:           Thu 08/31
+        topics:         Processes
+
+- name:     Scheduling
+  days:
+      - date:           Tue 09/05
+        topics:         Scheduling (FIFO, Round Robin)
+        assignments:
+          - Reading 03
+
+      - date:           Thu 09/07
+        topics:         Scheduling (MLFQ, Lottery)
+
+      - date:           Sat 09/09
+        assignments:
+          - Project 01
+
+- name:     "Unit 02: Concurrency with Threads"
+
+- name:     Concurrency
+  days:
+      - date:           Tue 09/12
+        topics:         Events
+        assignments:
+          - Reading 04
+
+      - date:           Tue 09/14
+        topics:         Threads
+
+- name:     Locks, Condition Variables
+  days:
+      - date:           Tue 09/19
+        topics:         Locks
+        assignments:
+          - Reading 05
+
+      - date:           Thu 09/21
+        topics:         Condition Variables
+
+- name:     Semaphores, Structures
+  days:
+      - date:           Tue 09/26
+        topics:         Semaphores
+        assignments:
+          - Reading 06
+
+      - date:           Thu 09/28
+        topics:         Structures
+
+- name:     Concurrency Bugs
+  days:
+      - date:           Tue 10/03
+        topics:         Race Conditions, Deadlock
+        assignments:
+          - Reading 07
+
+      - date:           Thu 10/05
+        topics:         Case Studies
+
+      - date:           Sat 10/07
+        assignments:
+          - Project 02
+
+- name:     "Exam 01: System Calls, Processes, Threads"
+
+- name:     Exam 01
+  days:
+      - date:           Tue 10/10
+        topics:         Review
+
+      - date:           Thu 10/12
+        topics:         ''
+        items:
+          - name:       Exam 01
+
+- name:   "Fall Break"
+
+- name:   "Unit 03: Virtual Memory"
+
+- name:     Virtual Memory
+  days:
+      - date:           Tue 10/24
+        topics:         Address Space, Translation
+        assignments:
+          - Reading 08
+
+      - date:           Thu 10/26
+        topics:         Free-Space Management
+
+- name:     Heap Management, Segmentation
+  days:
+      - date:           Tue 10/31
+        topics:         Heap Management
+        assignments:
+          - Reading 09
+
+      - date:           Thu 11/02
+        topics:         Segmentation
+
+- name:     Paging
+  days:
+      - date:           Tue 11/07
+        topics:         Paging
+        assignments:
+          - Reading 10
+
+      - date:           Thu 11/09
+        topics:         TLB / Multi-Level
+
+      - date:           Sat 11/11
+        assignments:
+          - Project 03
+
+- name:     "Unit 04: File Systems"
+
+- name:     Swapping, Devices
+  days:
+      - date:           Tue 11/14
+        topics:         Swapping
+        assignments:
+          - Reading 11
+
+      - date:           Thu 11/16
+        topics:         I/O Devices
+
+- name:     RAID
+  days:
+      - date:           Tue 11/21
+        topics:         RAID
+        assignments:
+          - Reading 12
+
+      - date:           Thu 11/23
+        topics:         Thanksgiving
+
+- name:     File Systems
+  days:
+      - date:           Tue 11/28
+        topics:         File Systems
+        assignments:
+          - Reading 13
+
+      - date:           Thu 11/30
+        topics:         LFS, FFS
+
+- name:     Consistency, Integrity
+  days:
+      - date:           Tue 12/05
+        topics:         Consistency, Integrity
+
+      - date:           Thu 12/07
+        assignments:
+          - Project 04
+
+- name:     "Exam 02: Virtual Memory, File Systems"
+
+- name:     Exam 02
+  days:
+      - date:           Fri 12/15
+        topics:         ''
+        items:
+          - name:       Exam 02
