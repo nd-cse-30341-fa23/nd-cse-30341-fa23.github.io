@@ -289,7 +289,7 @@ body:       |
         curl -sLO https://raw.githubusercontent.com/nd-cse-30341-fa23/cse-30341-fa23-assignments/master/reading01/test_program.sh
         chmod +x test_program.sh
         ./test_program.sh
-        Checking reading01 program ...
+        Testing reading01 program ...
            Score 3.00 / 3.00
           Status Success
 
