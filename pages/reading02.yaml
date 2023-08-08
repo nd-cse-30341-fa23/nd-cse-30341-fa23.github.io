@@ -174,7 +174,7 @@ body:       |
               Compute hexadecimal SHA1 Digest using sha1sum_file
               Display hexadecimal SHA1 Digest
 
-    <div class="alert alert-success" markdown="1">
+    <div class="alert alert-warning" markdown="1">
     **Note**: To link properly to the [SHA1] function, you will need to add
       `-lcrypto` to the `LIBS` variable in your `Makefile`.
     </div>
