@@ -14,6 +14,9 @@
 
       - date:           Thu 08/24
         topics:         OS Taxonomy, History, Themes
+        items:
+          - name:       Slide 02
+            link:       https://docs.google.com/presentation/d/15y3DGZfbbT-v_nGHAoCnJP0bBeEYlj5QFiqFXnJvoJA/edit?usp=sharing
 
 - name:     System Calls, Processes
   days:
@@ -22,11 +25,14 @@
         assignments:
           - Reading 02
         items:
-          - name:       Slide 02
-            link:       https://docs.google.com/presentation/d/15y3DGZfbbT-v_nGHAoCnJP0bBeEYlj5QFiqFXnJvoJA/edit?usp=sharing
+          - name:       Slide 03
+            link:       https://docs.google.com/presentation/d/1bZvhmi6S6oBgvLhG01YwM85t-0iCU3WcpbyzdeSZw9Y/edit?usp=sharing
 
       - date:           Thu 08/31
         topics:         Processes
+        items:
+          - name:       Slide 04
+            link:       https://docs.google.com/presentation/d/1zGYDgL_vX0hAkL_aB8f3b7awVdGdMCIKRrQgTQQlFIE/edit?usp=sharing
 
 - name:     Scheduling
   days:
@@ -34,9 +40,15 @@
         topics:         Scheduling (FIFO, Round Robin)
         assignments:
           - Reading 03
+        items:
+          - name:       Slide 05
+            link:       https://docs.google.com/presentation/d/1Ow4NDLOzOQ-XLl3Dl_-MSkPZ345x-kN0a4-h8aee2Ww/edit?usp=sharing
 
       - date:           Thu 09/07
         topics:         Scheduling (MLFQ, Lottery)
+        items:
+          - name:       Slide 06
+            link:       https://docs.google.com/presentation/d/18Cm08armkc0zqX1cJP745ehrO3dsWV3SiDWXCJlFYdo/edit?usp=sharing
 
       - date:           Sat 09/09
         assignments:
