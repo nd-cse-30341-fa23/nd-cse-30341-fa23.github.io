@@ -223,6 +223,8 @@ body:       |
                       {% set item['label'] = 'warning' %}
                     {% elif item['name'].lower().startswith('panopto') %}
                       {% set item['label'] = 'info' %}
+                    {% elif item['name'].lower().startswith('slide') %}
+                      {% set item['label'] = 'success' %}
                     {% else %}
                       {% set item['label'] = 'default' %}
                     {% end %}
