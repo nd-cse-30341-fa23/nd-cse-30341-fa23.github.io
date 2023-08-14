@@ -63,7 +63,7 @@
         assignments:
           - Reading 04
 
-      - date:           Tue 09/14
+      - date:           Thu 09/14
         topics:         Threads
 
 - name:     Locks, Condition Variables
