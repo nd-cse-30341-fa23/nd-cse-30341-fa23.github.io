@@ -150,7 +150,7 @@ body:       |
 
     ## Submission
 
-    To submit you work, follow the same process outlined in [Reading 01]:
+    To submit your work, follow the same process outlined in [Reading 01]:
 
         :::bash
         $ git checkout master                 # Make sure we are in master branch
