@@ -107,6 +107,24 @@ is below).  These will automatically be graded by the <a href="https://en.wikipe
 integration</a> system provided by <a href="https://github.com">GitHub</a>.</p>
 <p>Of course, there will be two exams: a <strong>Exam 01</strong> and <strong>Exam 02</strong>.  Each
 will be taken on paper and only cover the material since the last exam.</p>
+<h2 id="task-0-python">Task 0: Python<a class="headerlink" href="#task-0-python" title="Permanent link">&para;</a></h2>
+<p>Throughout the semester, we will be using <a href="https://python.org/">Python 3</a> for a variety of
+purposes. Because the student machines an older version of <a href="https://python.org/">Python 3</a> by default,
+you will need to add the following line to your <code>~/.bashrc</code> file:</p>
+<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code><span style="color: #008000">export</span> <span style="color: #19177C">PATH</span><span style="color: #666666">=</span>/escnfs/home/pbui/pub/pkgsrc/bin:<span style="color: #19177C">$PATH</span>
+</code></pre></div>
+
+<p>You can then source this file to load that environment variable:</p>
+<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>$ <span style="color: #008000">source</span> ~/.bashrc
+</code></pre></div>
+
+<p>To check that <a href="https://python.org/">Python 3</a> works, you can run the following:</p>
+<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>$ python3 -V
+Python <span style="color: #666666">3</span>.11.2
+</code></pre></div>
+
+<p>This will be necessary for the <code>.scripts/check.py</code> script in your
+<strong>assignments</strong> repository.</p>
 <h2 id="task-1-slack">Task 1: Slack<a class="headerlink" href="#task-1-slack" title="Permanent link">&para;</a></h2>
 <p>For communication outside of our meeting time, we will be using <a href="https://nd-cse.slack.com">Slack</a>,
 specifically the <code>#cse-30341-fa23</code> channel:</p>
