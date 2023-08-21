@@ -95,6 +95,30 @@ body:       |
     [scheduling]: https://en.wikipedia.org/wiki/Scheduling_(computing)#SCHEDULER
     [HTTP]: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
+    ## Task 0: Python
+
+    Throughout the semester, we will be using [Python 3] for a variety of
+		purposes. Because the student machines an older version of [Python 3] by default,
+		you will need to add the following line to your `~/.bashrc` file:
+
+				:::bash
+				export PATH=/escnfs/home/pbui/pub/pkgsrc/bin:$PATH
+
+    You can then source this file to load that environment variable:
+
+        :::bash
+        $ source ~/.bashrc
+
+    To check that [Python 3] works, you can run the following:
+
+        $ python3 -V
+        Python 3.11.2
+
+    This will be necessary for the `.scripts/check.py` script in your
+    **assignments** repository.
+
+		[Python 3]: https://python.org/
+
     ## Task 1: Slack
 
     For communication outside of our meeting time, we will be using [Slack],
