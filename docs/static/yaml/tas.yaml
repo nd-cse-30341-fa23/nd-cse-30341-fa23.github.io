@@ -13,6 +13,8 @@
 - name:     Danielle Croft
   netid:    dcroft
   github:   daniellec0321
+  conflicts:
+    - kvorne
 
 - name:     Coleen Joelle Valencia
   netid:    cvalenc3
