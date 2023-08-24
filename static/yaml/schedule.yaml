@@ -19,6 +19,8 @@
         items:
           - name:       Slide 02
             link:       https://docs.google.com/presentation/d/15y3DGZfbbT-v_nGHAoCnJP0bBeEYlj5QFiqFXnJvoJA/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6ec8cb2b-df08-4a34-b7d1-b06801007d0d
 
 - name:     System Calls, Processes
   days:
