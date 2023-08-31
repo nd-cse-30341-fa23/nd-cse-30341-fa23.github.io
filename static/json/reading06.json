@@ -1,0 +1,30 @@
+{
+    "q01": {
+        "type": "blank",
+        "question": "<strong>\n\nA ____ is a synchronization primitive that consists of an ____ value that\nwe can manipulate with two routines:\n</strong>\n\n<ol>\n\n  <li><b>____</b>: This function decrements the value of the semaphore and\n  waits if the value of the semaphore is negative.</li>\n\n  <li><b>____</b>: This function increments the value of the semaphore and\n  then wakes up any waiting threads.</li>\n  \n</ol>\n"
+    },
+    "q02": {
+        "type": "multiple",
+        "question": "<strong>\n\nRegarding using semaphores to implement locks and condition variables,\nwhich of the following statements are true (choose all that apply)?\n\n</strong>\n",
+        "responses": {
+            "lock_init": "To make a lock (binary semaphore), we initialize the semaphore to 1.",
+            "cond_init": "To make a condition variable, we initialize the semaphore to 1.",
+            "lock_call": "To make a lock (binary semaphore), we first <tt>sem_post</tt>, perform the critical section, and then <tt>sem_wait</tt>",
+            "cond_call": "To make a condition variable, we use <tt>sem_post</tt> to signal and <tt>sem_wait</tt> to wait."
+        }
+    },
+    "q03": {
+        "type": "multiple",
+        "question": "<strong>\n\nRegarding reader-writer locks, which of the following statements are true\n(choose all that apply)?\n\n</strong>\n",
+        "responses": {
+            "concurrency": "Reader-writer locks allow for multiple concurrent readers as long as there are no writers.",
+            "writers": "Reader-writer locks suspend all readers once a writer requires access.",
+            "starvation": "Reader-writer locks are prone to starvation problems.",
+            "overhead": "Reader-writer locks generally improve performance over simple and fast locking primitives."
+        }
+    },
+    "q04": {
+        "type": "blank",
+        "question": "<p><strong>\n\nSuppose you and your friends are going <i>slacklining</i>. Unfortunately,\nthe slackline can only support up to <i>three</i> people on it at a time.\u00a0\nTherefore, if they are many people, they will need to wait before they can\nget onto the slackline.\n\n</strong></p>\n\n<p>Assuming each person performs the following procedure:</p>\n\n<pre>\nget_on()\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 // Get on slackline if there is enough room\ndo_slack_line() \u00a0 // Attempt to walk across slackline\nget_off() \u00a0 \u00a0 \u00a0 \u00a0 // Get off of slackline\n</pre>\n\n<p>Model this <b>synchronization problem</b> using POSIX <b>threads</b>,\n<b>mutexes</b>, or <b>condition variables</b>.  Assume each person is\nrepresented as a <b>thread</b> that calls the functions above to get on the\nslackline, cross the slackline, and then get off the slackline.</p>\n\n<p>Assuming the following global variables:</p>\n\n<pre>\nsize_t CAPACITY = 3  // Maximum number of people on slackline\nsize_t Slackers = 0  // Current number of people on slackline\n\nMutex  Lock     \nCond   Line\n</pre>\n\n<p>Select and order the following lines of code to implement each of the\nfunctions below:</p>\n\n<pre>\nA. mutex_lock(Lock)\nB. mutex_unlock(Lock)\nC. cond_wait(Line, Lock)\nD. cond_signal(Line)\nE. while Slackers >= CAPACITY\nF. while Slackers < CAPACITY\nG. Slackers++\nH. Slackers--\n</pre>\n\n<p>\n<ol>\n<li>Select and order the lines of code above to implement the\n<tt>get_on()</tt> function. ____</li>\n\n<li>Select and order the lines of code above to implement the\n<tt>get_off()</tt> function. ____</li>\n</ol>\n</p>\n\n<center>\n<p><b>Put a single space between each line of code (ie. \"A B C\")).</b></p>\n</center>\n"
+    }
+}
