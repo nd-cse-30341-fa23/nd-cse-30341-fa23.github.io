@@ -70,9 +70,15 @@
         topics:         Events
         assignments:
           - Reading 04
+        items:
+          - name:       Slide 07
+            link:       https://docs.google.com/presentation/d/1DtbSFLHI-WuYX4tmzA_zN-UZEkKngccD1O9wypwY6lY/edit?usp=sharing
 
       - date:           Thu 09/14
         topics:         Threads
+        items:
+          - name:       Slide 08
+            link:       https://docs.google.com/presentation/d/1DtbSFLHI-WuYX4tmzA_zN-UZEkKngccD1O9wypwY6lY/edit?usp=sharing
 
 - name:     Locks, Condition Variables
   days:
@@ -80,9 +86,15 @@
         topics:         Locks
         assignments:
           - Reading 05
+        items:
+          - name:       Slide 09
+            link:       https://docs.google.com/presentation/d/1WKY0Ona27-I_mLTf3sX1PRLEYLhFtapVZL-9yxrdB-Q/edit?usp=sharing
 
       - date:           Thu 09/21
         topics:         Condition Variables
+        items:
+          - name:       Slide 10
+            link:       https://docs.google.com/presentation/d/1b7mooLonV2ipivoemoZj9Z-6YMUBieG74j7fUkrDnDY/edit?usp=sharing
 
 - name:     Semaphores, Structures
   days:
@@ -90,6 +102,9 @@
         topics:         Semaphores
         assignments:
           - Reading 06
+        items:
+          - name:       Slide 11
+            link:       https://docs.google.com/presentation/d/1MW55TvQ66-BGlAKVH1IDYV7kQ4IQOb1H5Kx0JLu8JHk/edit?usp=sharing
 
       - date:           Thu 09/28
         topics:         Structures
@@ -100,6 +115,9 @@
         topics:         Race Conditions, Deadlock
         assignments:
           - Reading 07
+        items:
+          - name:       Slide 12
+            link:       https://docs.google.com/presentation/d/1tS8sm2YpizwPlYTtMModgUXcVESQO9i40vvdMbsM7cY/edit?usp=sharing
 
       - date:           Thu 10/05
         topics:         Case Studies
