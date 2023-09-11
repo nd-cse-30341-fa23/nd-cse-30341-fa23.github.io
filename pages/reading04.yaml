@@ -102,9 +102,9 @@ body:       |
       `close`, `read`. (*Print response with only a single space between each
       word*)
 
-    2. Considering `open`, `close`, and `read`, which [system call] is called the most?
+    2. <strike>Considering `open`, `close`, and `read`, which [system call] is called the most?</strike> (**Expected Answer**: `open`)
 
-    3. Considering `open`, `close`, and `read`, which [system call] failed the most?
+    3. <strike>Considering `open`, `close`, and `read`, which [system call] failed the most?</strike> (**Expected Answer**: `open`)
 
     4. Instead of [fork], which system call was used to create a new process?
 
