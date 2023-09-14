@@ -84,7 +84,7 @@
         topics:         Threads
         items:
           - name:       Slide 08
-            link:       https://docs.google.com/presentation/d/1DtbSFLHI-WuYX4tmzA_zN-UZEkKngccD1O9wypwY6lY/edit?usp=sharing
+            link:       https://docs.google.com/presentation/d/1hMq9pQq4FU3Qw6Fz7CdQfxDxl81-gT-ObjoYKzaTooc/edit?usp=sharing
 
 - name:     Locks, Condition Variables
   days:
