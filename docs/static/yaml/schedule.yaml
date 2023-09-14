@@ -77,12 +77,14 @@
         items:
           - name:       Slide 07
             link:       https://docs.google.com/presentation/d/1DtbSFLHI-WuYX4tmzA_zN-UZEkKngccD1O9wypwY6lY/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e3815522-7f27-461f-90af-b07b00ff8325
 
       - date:           Thu 09/14
         topics:         Threads
         items:
           - name:       Slide 08
-            link:       https://docs.google.com/presentation/d/1DtbSFLHI-WuYX4tmzA_zN-UZEkKngccD1O9wypwY6lY/edit?usp=sharing
+            link:       https://docs.google.com/presentation/d/1hMq9pQq4FU3Qw6Fz7CdQfxDxl81-gT-ObjoYKzaTooc/edit?usp=sharing
 
 - name:     Locks, Condition Variables
   days:
