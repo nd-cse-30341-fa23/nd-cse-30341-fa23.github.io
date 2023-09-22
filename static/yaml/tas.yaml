@@ -1,6 +1,8 @@
 - name:     Anna Klempay
   netid:    aklempay
   github:   annaklempay
+  conflicts:
+    - jcaven
 
 - name:     Matthew Carbonaro
   netid:    mcarbona
