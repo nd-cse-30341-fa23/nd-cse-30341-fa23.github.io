@@ -118,11 +118,11 @@ programming paradigms.</p>
 <pre>
 PUT /subscription/$QUEUE/$TOPIC</pre>
 <h5 id="response">Response<a class="headerlink" href="#response" title="Permanent link">&para;</a></h5>
-<p>If `$QUEUE` does not exist, then the server will respond with a
-`404` [HTTP] status code and the message:</p>
+<p>If <code>$QUEUE</code> does not exist, then the server will respond with a
+<code>404</code> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> status code and the message:</p>
 <pre>
 There is no queue named: $QUEUE</pre>
-<p>Otherwise, the server will respond with a `200` [HTTP] status code
+<p>Otherwise, the server will respond with a <code>200</code> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> status code
 and the message:</p>
 <pre>
 Subscribed queue ($QUEUE) to topic ($TOPIC)</pre>
@@ -136,11 +136,11 @@ Subscribed queue ($QUEUE) to topic ($TOPIC)</pre>
 <pre>
 DELETE /subscription/$QUEUE/$TOPIC</pre>
 <h5 id="response_1">Response<a class="headerlink" href="#response_1" title="Permanent link">&para;</a></h5>
-<p>If `$QUEUE` does not exist, then the server will respond with a
-`404` [HTTP] status code and the message:</p>
+<p>If <code>$QUEUE</code> does not exist, then the server will respond with a
+<code>404</code> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> status code and the message:</p>
 <pre>
 There is no queue named: $QUEUE</pre>
-<p>Otherwise, the server will respond with a `200` [HTTP] status code
+<p>Otherwise, the server will respond with a <code>200</code> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> status code
 and the message:</p>
 <pre>
 Unsubscribed queue ($QUEUE) from topic ($TOPIC)</pre>
@@ -156,11 +156,11 @@ PUT /topic/$TOPIC
 
 $BODY</pre>
 <h5 id="response_2">Response<a class="headerlink" href="#response_2" title="Permanent link">&para;</a></h5>
-<p>If there are no subscribers to `$TOPIC`, then the server will respond with a
-`404` [HTTP] status code and the message:</p>
+<p>If there are no subscribers to <code>$TOPIC</code>, then the server will respond with a
+<code>404</code> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> status code and the message:</p>
 <pre>
 There are no subscribers for topic: $TOPIC</pre>
-<p>Otherwise, the server will respond with a `200` [HTTP] status code
+<p>Otherwise, the server will respond with a <code>200</code> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> status code
 and the message:</p>
 <pre>
 Published message ($BYTES bytes) to $SUBSCRIBERS subscribers of $TOPICS</pre>
@@ -174,12 +174,12 @@ Published message ($BYTES bytes) to $SUBSCRIBERS subscribers of $TOPICS</pre>
 <pre>
 GET /queue/$QUEUE</pre>
 <h5 id="response_3">Response<a class="headerlink" href="#response_3" title="Permanent link">&para;</a></h5>
-<p>If there is no `$QUEUE`, then the server will respond with a
-`404` [HTTP] status code and the message:</p>
+<p>If there is no <code>$QUEUE</code>, then the server will respond with a
+<code>404</code> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> status code and the message:</p>
 <pre>
 There is no queue named: $QUEUE</pre>
-<p>Otherwise, the server will respond with a `200` [HTTP] status code
-and the message `$BODY`:</p>
+<p>Otherwise, the server will respond with a <code>200</code> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> status code
+and the message <code>$BODY</code>:</p>
 <pre>
 $BODY</pre>
 </td>
