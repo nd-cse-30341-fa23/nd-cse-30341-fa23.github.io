@@ -106,11 +106,11 @@ body:       |
     <pre>
     PUT /subscription/$QUEUE/$TOPIC</pre>
     <h5>Response</h5>
-    <p>If `$QUEUE` does not exist, then the server will respond with a
+    <p markdown="1">If `$QUEUE` does not exist, then the server will respond with a
     `404` [HTTP] status code and the message:</p>
     <pre>
     There is no queue named: $QUEUE</pre>
-    <p>Otherwise, the server will respond with a `200` [HTTP] status code
+    <p markdown="1">Otherwise, the server will respond with a `200` [HTTP] status code
     and the message:</p>
     <pre>
     Subscribed queue ($QUEUE) to topic ($TOPIC)</pre>
@@ -124,11 +124,11 @@ body:       |
     <pre>
     DELETE /subscription/$QUEUE/$TOPIC</pre>
     <h5>Response</h5>
-    <p>If `$QUEUE` does not exist, then the server will respond with a
+    <p markdown="1">If `$QUEUE` does not exist, then the server will respond with a
     `404` [HTTP] status code and the message:</p>
     <pre>
     There is no queue named: $QUEUE</pre>
-    <p>Otherwise, the server will respond with a `200` [HTTP] status code
+    <p markdown="1">Otherwise, the server will respond with a `200` [HTTP] status code
     and the message:</p>
     <pre>
     Unsubscribed queue ($QUEUE) from topic ($TOPIC)</pre>
@@ -144,11 +144,11 @@ body:       |
 
     $BODY</pre>
     <h5>Response</h5>
-    <p>If there are no subscribers to `$TOPIC`, then the server will respond with a
+    <p markdown="1">If there are no subscribers to `$TOPIC`, then the server will respond with a
     `404` [HTTP] status code and the message:</p>
     <pre>
     There are no subscribers for topic: $TOPIC</pre>
-    <p>Otherwise, the server will respond with a `200` [HTTP] status code
+    <p markdown="1">Otherwise, the server will respond with a `200` [HTTP] status code
     and the message:</p>
     <pre>
     Published message ($BYTES bytes) to $SUBSCRIBERS subscribers of $TOPICS</pre>
@@ -162,11 +162,11 @@ body:       |
     <pre>
     GET /queue/$QUEUE</pre>
     <h5>Response</h5>
-    <p>If there is no `$QUEUE`, then the server will respond with a
+    <p markdown="1">If there is no `$QUEUE`, then the server will respond with a
     `404` [HTTP] status code and the message:</p>
     <pre>
     There is no queue named: $QUEUE</pre>
-    <p>Otherwise, the server will respond with a `200` [HTTP] status code
+    <p markdown="1">Otherwise, the server will respond with a `200` [HTTP] status code
     and the message `$BODY`:</p>
     <pre>
     $BODY</pre>
