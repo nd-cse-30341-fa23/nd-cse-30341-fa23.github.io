@@ -154,6 +154,9 @@
   days:
       - date:           Tue 10/10
         topics:         Review
+        items:
+          - name:       Slide R01
+            link:       https://docs.google.com/presentation/d/16L2QaW3s-bAxZdOlSxm_s1G1Drn2xqW0yqAeSgAyxbU/edit?usp=sharing
 
       - date:           Thu 10/12
         topics:         ''
