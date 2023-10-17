@@ -175,9 +175,15 @@
         topics:         Address Space, Translation
         assignments:
           - Reading 08
+        items:
+          - name:       Slides 13
+            link:       https://docs.google.com/presentation/d/1OeTqY5sjUhM1_tGyjoJx1o83XwNjGvkYxjTUIgMqCCU/edit?usp=sharing
 
       - date:           Thu 10/26
         topics:         Free-Space Management
+        items:
+          - name:       Slides 14
+            link:       https://docs.google.com/presentation/d/1LFlcTgLr262au1NalZlVykMc38dNb-iqdRpAurn1hNg/edit?usp=sharing
 
 - name:     Heap Management, Segmentation
   days:
@@ -188,6 +194,9 @@
 
       - date:           Thu 11/02
         topics:         Segmentation
+        items:
+          - name:       Slides 15
+            link:       https://docs.google.com/presentation/d/1DLJHPq42l51wlO2_C6ekPMFJObmdnTRwxlXJ60WoDLg/edit?usp=sharing
 
 - name:     Paging
   days:
@@ -195,9 +204,15 @@
         topics:         Paging
         assignments:
           - Reading 10
+        items:
+          - name:       Slides 16
+            link:       https://docs.google.com/presentation/d/1oUiXuNF558nN67c5HIUGZ5UAHcE7n1v2DAuSwY9SfoQ/edit?usp=sharing
 
       - date:           Thu 11/09
         topics:         TLB / Multi-Level
+        items:
+          - name:       Slides 17
+            link:       https://docs.google.com/presentation/d/1F7eaDmbYptEv1so1-cApmlFKUUk-BaR2v3WzJH2z2pQ/edit?usp=sharing
 
       - date:           Sat 11/11
         assignments:
@@ -211,6 +226,9 @@
         topics:         Swapping
         assignments:
           - Reading 11
+        items:
+          - name:       Slides 18
+            link:       https://docs.google.com/presentation/d/1CY9KeK7i2AGPFMm1mym1eOp-Yt040Adcep2IxaBkRcM/edit?usp=sharing
 
       - date:           Thu 11/16
         topics:         I/O Devices
