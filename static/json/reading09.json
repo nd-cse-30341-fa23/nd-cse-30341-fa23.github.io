@@ -1,7 +1,7 @@
 {
     "q01": {
         "type": "multiple",
-        "question": "<strong>\n\nWhich are the following are reasons why the base and bounds method of\nimplementing virtual memory is insufficient for a modern operating system\n(choose all that apply)?\n\n<strong>\n",
+        "question": "<strong>\n\nWhich are the following are reasons why the base and bounds method of\nimplementing virtual memory is insufficient for a modern operating system\n(choose all that apply)?\n\n</strong>\n",
         "responses": {
             "complicated": "It is too complicated.",
             "slow": "It is too slow and inefficient.",
@@ -21,7 +21,7 @@
     },
     "q04": {
         "type": "blank",
-        "question": "<strong>\n\nIn segmentation, we chopped up memory into variabled-sized pieces.\nUnfortunately, this made our space fragmented over time.  An alternative\napproach is the idea of ____, which uses fixed-sized units called ____.\nEach of these fixed-sized units is mapped to a corresponding ____ in\nphysical memory.  These mappings are stored in a per-process data structure\ncalled a ____.\n\n</strong>\n"
+        "question": "<strong>\n\nIn segmentation, we chopped up memory into variable-sized pieces.\nUnfortunately, this made our space fragmented over time.  An alternative\napproach is the idea of ____, which uses fixed-sized units called ____.\nEach of these fixed-sized units is mapped to a corresponding ____ in\nphysical memory.  These mappings are stored in a per-process data structure\ncalled a ____.\n\n</strong>\n"
     },
     "q05": {
         "type": "blank",
