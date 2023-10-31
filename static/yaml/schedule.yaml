@@ -195,6 +195,9 @@
         topics:         Heap Management
         assignments:
           - Reading 09
+        items:
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ec87f2d-3e60-44fd-8b63-b0ac00ff4196
 
       - date:           Thu 11/02
         topics:         Segmentation
