@@ -112,9 +112,9 @@ body:       |
     </div>
 
     Working in groups of **one** or **two** people, you are to create a
-    **library** that implements [malloc] and [free] by **noon** on **Saturday,
-    November 11, 2023**.  More details about this project and your deliverables
-    are described below.
+    **library** that implements [malloc] and [free] by **noon** on
+    <strike>Saturday, November 11, 2023</strike> **Monday, November 13, 2023**.
+    More details about this project and your deliverables are described below.
 
     <div class="alert alert-info" markdown="1">
     #### <i class="fa fa-cogs"></i> Heap Management
@@ -176,7 +176,7 @@ body:       |
       <td>Brainstorming should be completed.</td>
     </tr>
     <tr markdown="1">
-      <td class="text-strong">Saturday, November 11</td>
+      <td class="text-strong">Monday, November 13</td>
       <td markdown="1">Library is due (pushed to [GitHub] `project03` branch).</td>
     </tr>
     </tbody>
