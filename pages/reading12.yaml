@@ -1,6 +1,9 @@
 title:      "Reading 12: File Systems"
 icon:       fa-book
-navigation: []
+navigation:
+  - name: "Home"
+    link: "index.html"
+    icon: "fa-desktop"
 internal:
 external:
 body:       |
@@ -48,7 +51,7 @@ body:       |
     <script>
     loadQuiz('static/json/reading12.json');
     </script>
-    
+
     <pre style="display: none;" id="dr-container" class="codehilite"><code id="dredd-response"></code></pre>
 
     ## Program
@@ -79,7 +82,7 @@ body:       |
 
         $ echo $?
         1
-    
+
     [sha1sum]: https://man7.org/linux/man-pages/man1/sha1sum.1.html
 
     ### Requirements
@@ -147,7 +150,7 @@ body:       |
 
     - In `cksum_directory`, you can use [sprintf] to build the full path of
       each `entry`.
-    
+
     If you do not remember how to programmatically manipulate the file system,
     I recommend the following resources:
 

@@ -1,6 +1,9 @@
 title:      "Reading 10: Swapping"
 icon:       fa-book
-navigation: []
+navigation:
+  - name: "Home"
+    link: "index.html"
+    icon: "fa-desktop"
 internal:
 external:
 body:       |
