@@ -242,6 +242,8 @@
         items:
           - name:       Slides 18
             link:       https://docs.google.com/presentation/d/1CY9KeK7i2AGPFMm1mym1eOp-Yt040Adcep2IxaBkRcM/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e8e23a7-05f4-4d9d-a0ad-b0ba010d752e
 
       - date:           Thu 11/16
         topics:         I/O Devices
