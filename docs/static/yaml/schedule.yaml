@@ -277,12 +277,16 @@
         items:
           - name:       Slides 21
             link:       https://docs.google.com/presentation/d/148D11gK7hbbaOA5B8v-yGbCHH_1YJDxd-VpUYQTj5OM/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a18d6247-13e2-42b8-9c25-b0c8011045bd
 
       - date:           Thu 11/30
         topics:         LFS, FFS
         items:
           - name:       Slides 22
             link:       https://docs.google.com/presentation/d/1nhiPlPpKpAqAKkAW8AePaCUyEAFZgVtoY59240KnZt4/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=435b31d4-390a-4565-9206-b0ca01112a34
 
 - name:     Consistency, Integrity
   days:
