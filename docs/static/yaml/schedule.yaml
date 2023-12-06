@@ -300,6 +300,9 @@
         topics:         Review
         assignments:
           - Project 04
+        items:
+          - name:       Slides R02
+            link:       https://docs.google.com/presentation/d/1ENkLAG3MQXJSiWmMTLZ14iEjIAEk-8RH_RbdYH5m0cQ/edit?usp=sharing
 
 - name:     "Exam 02: Virtual Memory, File Systems"
 
